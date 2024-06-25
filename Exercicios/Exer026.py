@@ -1,0 +1,7 @@
+frase = str(input('informe uma frase:')).lower()
+quant = str(frase.count('a'))
+first = str(frase.find('a'))
+last = str(frase.rfind('a'))
+print('a quantidade de letras a é {}'.format(quant))
+print('a primeira letra a esta na posição {}'.format(first))
+print('a ultima letra a esta na posição {}'.format(last))
