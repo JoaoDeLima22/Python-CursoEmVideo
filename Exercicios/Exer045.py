@@ -36,7 +36,7 @@ elif maquina == 2:
     n2 = 'papel'
 elif maquina == 3:
     n2 = 'tesoura'
-print('Você escolheu {}  \nA maquina escolheu {}'.format(n1, n2))
+print('Você escolheu {}  \n A maquina escolheu {}'.format(n1, n2))
 if n1 == n2:
     print('Empate')
 elif n1 =='pedra' and n2=='papel' or n1 =='papel' and n2=='tesoura' or n1 =='tesoura' and n2=='pedra' :
